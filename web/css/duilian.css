@@ -1,0 +1,206 @@
+.duiLian_box {
+  z-index: 100;
+  background: #E94335;
+  width: 126px;
+  position: fixed;
+  top: 10%;
+}
+
+.duiLian_left {
+  background: url(../img/left-6b87ffcb.png) no-repeat center;
+  height: 516px;
+}
+
+.duiLian_box.duiLian_left {
+  left: 0px;
+}
+
+.duiLian_left .float_main {
+  height: 516px;
+  width: 100%;
+  position: relative;
+}
+
+.duiLian_left a {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.duiLian_left a:hover {
+  color: #ffffff;
+}
+
+.duiLian_left .float_main .title1 {
+  position: absolute;
+  top: 156px;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.duiLian_left .float_main .title1 a {
+  display: block;
+  width: 126px;
+  height: 40px;
+}
+
+.duiLian_left .float_main .title2 {
+  position: absolute;
+  top: 206px;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.duiLian_left .float_main .title2 a {
+  display: block;
+  width: 126px;
+  height: 40px;
+}
+
+.duiLian_left .float_main .title3 {
+  position: absolute;
+  top: 130px;
+  left: 14px;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.duiLian_left .float_main .title3 span {
+  color: #fcf309;
+}
+
+.duiLian_left .float_main .title4 img {
+  width: 100px;
+  height: 100px;
+}
+
+.duiLian_left .float_main .title4 {
+  position: absolute;
+  top: 267px;
+  left: 12px;
+}
+
+.duiLian_left .float_main .title5 {
+  position: absolute;
+  top: 313px;
+  left: 34px;
+}
+
+.duiLian_left .float_main .title6 {
+  position: absolute;
+  bottom: 102px;
+  right: 0;
+}
+
+.duiLian_left .float_main .title6 a {
+  display: block;
+  width: 126px;
+  height: 22px;
+
+}
+
+.duiLian_right {
+  background: url(../img/right-87fbb57d.png) no-repeat center;
+  height: 516px;
+}
+
+.duiLian_box.duiLian_right {
+  right: 0px;
+}
+
+.duiLian_right .float_main {
+  height: 516px;
+  width: 100%;
+  position: relative;
+}
+
+.duiLian_right a {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.duiLian_right a:hover {
+  color: #ffffff;
+}
+
+.duiLian_right .float_main .title1 {
+  position: absolute;
+  top: 150px;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.duiLian_right .float_main .title1 a {
+  display: block;
+  width: 126px;
+  height: 40px;
+}
+
+.duiLian_right .float_main .title2 {
+  position: absolute;
+  top: 207px;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.duiLian_right .float_main .title2 a {
+  display: block;
+  width: 126px;
+  height: 40px;
+
+}
+
+.duiLian_right .float_main .title3 {
+  text-align: center;
+  position: absolute;
+  top: 140px;
+  left: 40px;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 18px;
+  /*width: 100%;*/
+
+}
+
+.duiLian_right .float_main span {
+  color: #fcf309;
+}
+
+.duiLian_right .float_main .title4 img {
+  width: 100px;
+  height: 100px;
+}
+
+.duiLian_right .float_main .title4 {
+  position: absolute;
+  top: 264px;
+  left: 12px;
+}
+
+.duiLian_right .float_main .title5 {
+  position: absolute;
+  top: 313px;
+  left: 34px;
+}
+
+.duiLian_right .float_main .title6 {
+  position: absolute;
+  bottom: 97px;
+  left: 0;
+
+}
+
+.duiLian_right .float_main .title6 a {
+  display: block;
+  width: 125px;
+  height: 26px;
+
+}
+
+.duiLian_box {
+  z-index: 8000;
+}

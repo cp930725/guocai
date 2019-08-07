@@ -1,0 +1,109 @@
+﻿@charset "utf-8";
+a {
+  color: #666;
+}
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+html,
+body {
+  background: #efefef;
+  color: #333;
+  font-family: Arial, '微软雅黑', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0;
+}
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+img,
+input,
+button {
+  border: 0;
+  font-family: "微软雅黑";
+}
+.clear {
+  clear: both;
+}
+.container-max {
+  width: 640px;
+  height: auto;
+  margin: 0 auto;
+  background: #820B07 url('bg.jpg') no-repeat center;
+  height: 1100px
+}
+.ddd {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.logoWrap {
+  padding-top: 2px;
+  text-align: center;
+}
+.logoWrap .title {
+  display: block;
+  margin: 14px auto 34px;
+}
+.txtInfo {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+.txtInfo h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.txtInfo h1 b {
+  color: #FFD800;
+}
+.downWrap {
+  padding-top: 18px;
+  text-align: center;
+}
+.downWrap a {
+  display: block;
+  margin: 14px auto;
+}
+.ballWrap {
+  padding-top: 15px;
+  text-align: center;
+}
+.linkWrap {
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+.linkWrap p {
+  margin-bottom: 17px;
+}

@@ -1,0 +1,183 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+ul,
+li,
+div {
+    margin: 0;
+    padding: 0;
+}
+.ptcommon-container input:-webkit-autofill,
+.ptcommon-container input:-webkit-autofill:hover,
+.ptcommon-container input:-webkit-autofill:focus {
+    background-color: #fff;
+}
+.ptcommon-container .hellheaderblank {
+    display: block;
+    height: 12rem;
+}
+.ptcommon-container .InnerHeaderBlank {
+    display: block;
+    height: 8rem;
+}
+.ptcommon-container .ptheader {
+    background-image: url("../images/ptgame/headerbg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    font-size: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+}
+.ptcommon-container .ptheader .title-warp {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+}
+.ptcommon-container .ptheader .title-warp > div {
+    display: inline-block;
+    width: 33.33%;
+}
+.ptcommon-container .ptheader .title-warp .back-icon {
+    display: inline-block;
+    margin-left: 0.8rem;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    transform: rotate(180deg);
+    color: #32294d;
+}
+.ptcommon-container .ptheader .title-warp p {
+    text-align: center;
+}
+.ptcommon-container .ptheader .title-warp .title {
+    color: #32294d;
+    font-size: 1.6rem;
+    margin: 0;
+}
+.ptcommon-container .ptheader .title-warp .back-title {
+    color: #32294d;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+.ptcommon-container .ptheader .title-warp i {
+    font-size: 1rem;
+    margin-left: 0.8rem;
+}
+.ptcommon-container .pt-game-footer {
+    -ms-overflow-style: none;
+    height: 3rem;
+    background-color: #ebebf5;
+    z-index: 99;
+    display: block;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    font-size: 0px;
+    line-height: 3rem;
+}
+.ptcommon-container .pt-game-footer > div {
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+}
+.ptcommon-container .pt-game-footer > div:nth-child(1) {
+    float: left;
+}
+.ptcommon-container .pt-game-footer > div:nth-child(2) {
+    float: left;
+    margin-left: 0.8rem;
+}
+.ptcommon-container .pt-game-footer > div:nth-child(3) {
+    float: right;
+}
+.ptcommon-container .pt-game-footer .balance-warp .balance {
+    margin-left: 0.8rem;
+    color: #b034c0;
+    font-size: 0.8rem;
+    float: left;
+}
+.ptcommon-container .pt-game-footer .balance-warp i {
+    font-size: 1.2rem;
+    margin-left: 0.4rem;
+    float: left;
+    line-height: 3rem;
+    color: #b5b1d1;
+}
+.ptcommon-container .pt-game-footer .transfer-warp .transfer {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-image: url("../images/ptgame/transfer.png");
+    background-repeat: no-repeat;
+    background-size: 3.5rem 3rem;
+    display: inline-block;
+    border-radius: 1rem;
+    width: 5rem;
+    height: 4rem;
+}
+.ptcommon-container .pt-game-footer .reset-warp .reset {
+    text-decoration: underline;
+    text-align: right;
+    display: inline-block;
+    font-size: 1rem;
+    float: right;
+    margin-right: 1rem;
+    color: #8579aa;
+}
+.ptcommon-container .game-list-warp {
+    margin-bottom: 2rem;
+    background-color: #fff;
+}
+.ptcommon-container .game-list-warp .game-list li {
+    width: 33.33%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+.ptcommon-container .game-list-warp .game-list li .game-item-warp {
+    margin-top: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    position: relative;
+    width: 6rem;
+    text-align: center;
+}
+.ptcommon-container .game-list-warp .game-list li .game-item-warp label {
+    color: #32294d;
+    position: static;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-top: 0.4rem;
+    white-space: normal;
+    word-break: break-all;
+}
+.ptcommon-container .game-list-warp .game-list li .game-item-warp .img-game {
+    height: 6rem;
+    width: 6rem;
+    z-index: 4;
+    position: relative;
+    border-radius: 0.2rem;
+}
+.ptcommon-container .game-list-warp .game-list li .game-item-warp .img-bottom {
+    background-size: 6rem 0.6rem;
+    height: 0.6rem;
+    width: 6rem;
+    display: block;
+}
+.ptcommon-container .footerblank {
+    height: 3rem;
+}

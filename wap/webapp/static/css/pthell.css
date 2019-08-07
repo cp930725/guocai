@@ -1,0 +1,157 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+ul,
+li,
+div {
+    margin: 0;
+    padding: 0;
+}
+.pthell-container {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.pthell-container .classify-title {
+    color: #b034c0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+}
+.pthell-container .classify-title span:nth-child(1) {
+    justify-content: center;
+    height: 0.8rem;
+    width: 0.2rem;
+    background-color: #b034c0;
+    display: inline-block;
+    border-radius: 0.1rem;
+    margin-bottom: 0.3rem;
+    margin-right: 0.5rem;
+}
+.pthell-container .classify-title span:nth-child(2) {
+    font-size: 1.5rem;
+}
+.pthell-container .classify-title span:nth-child(3) {
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+}
+.pthell-container .ptheader {
+    height: 12rem;
+    background-size: 100% 24rem;
+}
+.pthell-container .entertrance-warp {
+    text-align: center;
+    padding-bottom: 0.2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+.pthell-container .entertrance-warp .entertranceitem {
+    width: 33.33%;
+    display: inline-block;
+}
+.pthell-container .entertrance-warp .entertranceitem img {
+    height: 7.4rem;
+    width: 7.4rem;
+    margin-top: 0.6rem;
+}
+.pthell-container .recent-game-warp {
+    border-bottom: 0.3rem solid #f0f0fa;
+    background: #fff;
+    border-top: 0.3rem solid #f0f0fa;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    padding-bottom: 0.4rem;
+}
+.pthell-container .recent-game-warp .recent-list {
+    display: block;
+    white-space: nowrap;
+    margin-top: 0.6rem;
+    overflow-x: scroll;
+    -webkit-backface-visibility: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+.pthell-container .recent-game-warp .recent-list::-webkit-scrollbar {
+    display: none;
+}
+.pthell-container .recent-game-warp .recent-list li {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+}
+.pthell-container .recent-game-warp .recent-list .game-item-warp {
+    text-align: center;
+    font-size: 0;
+    color: #fff;
+    position: relative;
+}
+.pthell-container .recent-game-warp .recent-list .game-item-warp label {
+    color: #000;
+    position: static;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    white-space: normal;
+    word-break: break-all;
+}
+.pthell-container .recent-game-warp .recent-list .game-item-warp img {
+    height: 6rem;
+    width: 6rem;
+    z-index: 4;
+    position: relative;
+    border-radius:0.2rem;
+}
+.pthell-container .recent-game-warp .recent-list .game-item-warp .img-bottom {
+    background-size: 6rem 0.6rem;
+    height: 0.6rem;
+    width: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0;
+    border-style: none;
+}
+.pthell-container .recent-game-warp .dotlist-warp {
+    text-align: center;
+    height: 1rem;
+    margin-bottom: 0.5rem;
+}
+.pthell-container .recent-game-warp .dotlist-warp li {
+    transition: width 0.2s;
+    height: 0.2rem;
+    width: 0.2rem;
+    background-color: #b034c0;
+    margin-right: 0.2rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    opacity: 0.5;
+}
+.pthell-container .recent-game-warp .dotlist-warp .active {
+    transition: width 0.2s;
+    background-color: #b034c0;
+    width: 1.5rem;
+    border-radius: 0.5rem;
+    opacity: 1;
+}
+.pthell-container .load-more-warp {
+    padding-bottom: 1rem;
+}
+.pthell-container .load-more-warp .load-more {
+    width: 15rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #716599;
+    background-color: #e6e6f0;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+}
+.pthell-container .load-more-hide {
+    display: none;
+}
